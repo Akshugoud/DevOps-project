@@ -43,8 +43,12 @@ It integrates multiple tools for source control, build automation, configuration
 ```mermaid
 graph LR
 A[Developer commits code to GitHub] --> B[GitHub Webhook triggers Jenkins]
-B --> C[Jenkins builds using Maven]
-C --> D[Artifacts uploaded to Nexus Repository]
-D --> E[Terraform provisions AWS Infrastructure]
-E --> F[Ansible deploys app to Tomcat Server]
-F --> G[Grafana monitors application performance]
+B --> C[Build Stage - Jenkins uses Maven to build the application]
+C --> D[Test Stage - Automated testing in Jenkins]
+D --> E[Code Quality Check - SonarQube analysis]
+E --> F[Artifact Stage - WAR file generated and versioned]
+F --> G[S3 Upload - Artifact stored for rollback/version control]
+G --> H[Deployment Stage - Ansible deploys app to Tomcat server]
+H --> I[Slack Notification - Team notified about deployment status]
+I --> J[Monitoring - Grafana and Prometheus track system health]
+
