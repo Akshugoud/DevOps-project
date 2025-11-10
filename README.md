@@ -21,19 +21,20 @@ It integrates multiple tools for source control, build automation, configuration
 
 ---
 
-## 🧰 Tech Stack
+## ⚙️ Tools and Technologies Used
 
-| Category | Tools Used |
-|-----------|-------------|
-| Version Control | Git, GitHub |
-| Build Tool | Maven |
-| CI/CD | Jenkins |
-| Artifact Repository | Nexus |
-| Configuration Management | Ansible |
-| Provisioning | Terraform |
-| Application Server | Apache Tomcat |
-| Cloud Platform | AWS |
-| Monitoring | Grafana |
+| Category | Tools |
+|-----------|--------|
+| **Cloud Platform** | AWS |
+| **Infrastructure as Code (IaC)** | Terraform |
+| **Version Control** | Git, GitHub |
+| **CI/CD** | Jenkins |
+| **Configuration Management** | Ansible |
+| **Artifact Storage** | Amazon S3 |
+| **Application Server** | Apache Tomcat |
+| **Code Quality Analysis** | SonarQube |
+| **Monitoring** | Prometheus, Grafana |
+
 
 ---
 
