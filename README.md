@@ -1,6 +1,8 @@
 # 🚀 DevOps Project  
 ### **Web Application Deployment using CI/CD in Monolithic Architecture**
 
+🔗 **Project Repository:** [GitHub - jenkins-java-project](https://github.com/Akshugoud/jenkins-java-project.git)
+
 ---
 
 ## 🧾 About the Project
