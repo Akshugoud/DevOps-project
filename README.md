@@ -52,3 +52,7 @@ G --> H[Deployment Stage - Ansible deploys app to Tomcat server]
 H --> I[Slack Notification - Team notified about deployment status]
 I --> J[Monitoring - Grafana and Prometheus track system health]
 
+```html
+<p align="center">
+  <img src="Architecture.png" width="700" alt="Architecture Diagram">
+</p>
